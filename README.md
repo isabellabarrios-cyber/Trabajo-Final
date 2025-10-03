@@ -1,5 +1,6 @@
 # Trabajo-Final
-ALgoritmos y Programación ( Isabella Barrios y Yaneris Oviedo)
+Algoritmos y Programación ( Isabella Barrios y Yaneris Oviedo)
+
 Resort Arena Azul:“El lugar donde la calma se convierte en recuerdos familiares.” 
 
 -Descripción general del proyecto:Arena Azul consiste en el desarrollo de un software de consola diseñado para gestionar de manera integral la operación de un resort. El sistema organiza la planeación de la demanda, registra a los huéspedes con validación de datos y asigna habitaciones de acuerdo con la disponibilidad. Además, permite llevar un control de las ventas, los costos y la ocupación de servicios como alimentación y turismo. El módulo de administración, protegido con usuario y contraseña, brinda acceso a reportes completos y la opción de exportarlos en archivos CSV. Con ello, el proyecto busca garantizar un manejo ordenado, transparente y eficiente de la información diaria, convirtiéndose en una herramienta clave para la toma de decisiones en el resort.
