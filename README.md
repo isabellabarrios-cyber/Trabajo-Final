@@ -1,5 +1,5 @@
 # 🌴 Resort Arena Azul🏖️
-
+![Diagrama de Flujo del Sistema]([Layout.png](https://github.com/isabellabarrios-cyber/Trabajo-Final/blob/main/assets/img/Layout.png))
 **Algoritmos y Programación** (Isabella Barrios y Yaneris Oviedo)
 
 ## 🌟 Resort Arena Azul: "El lugar donde la calma se convierte en recuerdos familiares." 🌟
