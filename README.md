@@ -3,6 +3,13 @@
 **Algoritmos y Programación** (Isabella Barrios y Yaneris Oviedo)
 
 ## 🌟 Resort Arena Azul: "El lugar donde la calma se convierte en recuerdos familiares." 🌟
+### 🖼️ Logo / Imagen Representativa  
+
+<img width="500" height="500" alt="Logo" src="https://github.com/user-attachments/assets/0453230d-d54d-45e3-bd10-5b07d838f416" />
+
+
+
+<img width="1344" height="768" alt="Gemini_Generated_Image_4h8py74h8py74h8p (1)" src="https://github.com/user-attachments/assets/c38041fc-94b6-4f81-af59-44687d3bf95e" />
 
 ---
 
