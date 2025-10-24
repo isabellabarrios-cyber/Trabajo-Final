@@ -1,0 +1,56 @@
+Algoritmo Arena Azul
+
+Entradas:  
+    reservas_previstas, capacidad_habitaciones, capacidad_servicios, datos_huesped, usuario_admin, clave_admin
+
+Inicio
+    // --- Planeación de la demanda (Alistamiento) ---
+    leer reservas_previstas
+    calcular demanda_esperada = contar(reservas_previstas)
+    calcular disponibilidad_habitaciones = capacidad_habitaciones - demanda_esperada
+    calcular disponibilidad_servicios = capacidad_servicios - demanda_esperada
+    si disponibilidad_habitaciones < 0 o disponibilidad_servicios < 0 entonces
+        escribir "Demanda supera la capacidad, ajustar recursos o rechazar reservas"
+    fin si
+    guardar proyección de ocupación y servicios
+    escribir "Planeación de la demanda completada. Sistema listo para registro de huéspedes"
+
+    // --- Ingreso y registro de huéspedes ---
+    leer datos_huesped
+    validar nombre, apellido, documento
+    si datos válidos entonces
+        si disponibilidad_habitaciones > 0 entonces
+            asignar habitación
+            registrar check-in con fecha y hora
+            disminuir disponibilidad_habitaciones en 1
+        sino
+            escribir "No hay habitaciones disponibles"
+        fin si
+    sino
+        escribir "Datos inválidos, por favor revisa tu registro"
+    fin si
+
+    // --- Cálculo de ingresos y balance ---
+    obtener ventas, costos
+    ingresos_totales = sumar ventas
+    costos_totales = sumar costos
+    ganancia = ingresos_totales - costos_totales
+    guardar reporte_diario
+
+    // --- Módulo administrador ---
+    leer usuario_admin, clave_admin
+    si credenciales correctas entonces
+        mostrar total_huespedes
+        mostrar huespedes_por_tipo
+        mostrar total_mascotas
+        mostrar disponibilidad_habitaciones
+        mostrar disponibilidad_servicios
+        mostrar ingresos_totales, costos_totales, ganancia
+        si exportar == verdadero entonces
+            generar archivo CSV
+        fin si
+    sino
+        escribir "Acceso denegado"
+    fin si
+
+Fin
