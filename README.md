@@ -44,8 +44,7 @@ Contamos con una amplia capacidad de habitaciones y múltiples espacios de disfr
 | Rol | Nombre | Habilidades y Responsabilidades |
 | :--- | :--- | :--- |
 | **Líder del Equipo y Gestora de Repositorio** | **Isabella Barrios** (Estudiante de Ingeniería Industrial) | Proactividad, diseño digital, **gestión y supervisión** del repositorio de GitHub, y aseguramiento de la correcta y ordenada ejecución de cada etapa del proyecto. |
-| **Miembro del Equipo** | **Yaneris Oviedo** | (Estudiante de Ingeniería Industrial) |Destaca por su capacidad de trabajo en equipo. Tiene facilidad para plantear soluciones prácticas a los problemas que surgen en el desarrollo de proyectos. Dentro de Arena Azul será la encargada de coordinar la documentación técnica, realizar pruebas del sistema. |
-
+| **Miembro del Equipo** | **Yaneris Oviedo** (Estudiante de Ingeniería Industrial)| Destaca por su capacidad de trabajo en equipo. Tiene facilidad para plantear soluciones prácticas a los problemas que surgen en el desarrollo de proyectos. Dentro de Arena Azul será la encargada de coordinar la documentación técnica, realizar pruebas del sistema. )
 ---
 
 
